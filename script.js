@@ -1,4 +1,4 @@
-<script>
+
     let x=[];
 function additem(){
   const product=document.getElementById('product').value;
@@ -46,5 +46,5 @@ function calculateTotalamount(){
   }
   document.getElementById('totalamount').textContent=s.toFixed(2);
 }
-</script>
+
   
